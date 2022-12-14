@@ -1,0 +1,25 @@
+.container{
+
+    align-items: center;
+    background-color: white;
+    margin-top: 95px;
+
+}
+img{
+    width: 70px;
+ }
+ h3{
+     color: black;
+     font-size: 30px;
+     margin-top: 20px;
+ }
+ span{
+     color: coral;
+ }
+.new{
+    margin-bottom: 15px;
+   
+}
+tr{
+    align-items: center;
+}

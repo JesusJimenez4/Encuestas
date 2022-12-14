@@ -1,0 +1,44 @@
+.login-container{
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-left:28%;
+    
+   
+}
+img{
+    width: 70px;
+    text-align: center;
+   
+}
+
+.login-form-1{
+    padding:8%;
+    background:#e65454;
+   
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:10%;
+    color:#fff;
+    font-size: 30px;
+}
+
+.btnSubmit{
+    font-weight: 500;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+    align-items: center;
+}
+input{
+    margin-bottom: 15px;
+}
+a{
+    color: black;
+    font-size: .4cm;
+    
+    
+}

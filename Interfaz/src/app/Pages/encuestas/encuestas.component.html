@@ -1,0 +1,43 @@
+<app-nav-bar></app-nav-bar>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">       
+                <h3>Gestor de <span>Encuestas</span>  <img src="assets/images/cuaderno.gif" alt="Encuestas"></h3> 
+            </div> 
+            <div class="new" align="right">
+                <button class="btn btn-success">Crear Encuesta <i class="bi bi-node-plus"></i></button>
+            </div>
+            <div align="center" style="margin-bottom: 25px;">
+                <h3>Encuestas Existentes</h3>
+            </div>
+            <div class="search-text">
+                <input style="margin-bottom: 40px;" class="form-control" type="text" name="search" autocomplete="on" placeholder="Buscar"  >
+            </div>
+            <table class="table">
+                <thead align="center">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Categoría</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Fecha de registro</th>
+                    <th scope="col">Contestar</th>
+                    <th scope="col">Editar</th>
+                    <th scope="col">Eliminar</th>
+                  </tr>
+                </thead>
+                <tbody align="center">
+                  <tr >
+                    <th scope="row">#</th>
+                    <td>Nombre</td>
+                    <td>Categoría</td>
+                    <td>Estado</td>
+                    <td>Fecha de registro</td>
+                    <td><button  class="btn btn-success"><i class="bi bi-eye"></i></button></td>
+                    <td><button  class="btn btn-warning"><i class="bi bi-pencil-fill"></i></button></td>
+                    <td><button  class="btn btn-danger"><i class="bi bi-trash-fill"></i></button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>        
+     </div>
