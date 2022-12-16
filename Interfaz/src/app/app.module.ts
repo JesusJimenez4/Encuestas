@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './Pages/login/register/register.component';
 import { EncuestasComponent } from './Pages/encuestas/encuestas.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PreguntasComponent } from './Pages/encuestas/preguntas/preguntas.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginComponent,
     NavBarComponent,
     RegisterComponent,
-    EncuestasComponent
+    EncuestasComponent,
+    PreguntasComponent
   ],
   imports: [
     BrowserModule,

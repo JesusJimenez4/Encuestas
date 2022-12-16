@@ -1,5 +1,5 @@
 .container{
-    display: flex;
+   
     align-items: center;
     background-color: white;
     margin-top: 95px;
@@ -20,4 +20,13 @@ p{
     font-size: 16px;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+.CrearEn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 32px;
 }
